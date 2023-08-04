@@ -1,19 +1,19 @@
 drop table country_data
 
 CREATE TABLE country_data (
-    Country TEXT,
+    "Country" TEXT,
     "Density (P/Km2)" TEXT,
     "Agricultural Land (%)" TEXT,
     "Land Area(Km2)" TEXT,
     "Armed Forces size" TEXT,
-    "Birth Rate" TEXT,
+    "Birth Rate" FLOAT,
     "Co2-Emissions" TEXT,
-    CPI TEXT,
+    "CPI" TEXT,
     "CPI Change (%)" TEXT,
     "Fertility Rate" FLOAT,
     "Forested Area (%)" TEXT,
     "Gasoline Price" TEXT,
-    GDP TEXT,
+    "GDP" TEXT,
     "Gross primary education enrollment (%)" TEXT,
     "Gross tertiary education enrollment (%)" TEXT,
     "Infant mortality" FLOAT,
@@ -22,7 +22,7 @@ CREATE TABLE country_data (
     "Minimum wage" TEXT,
     "Out of pocket health expenditure" TEXT,
     "Physicians per thousand" FLOAT,
-    "Population" TEXT,
+    "Population" FLOAT,
     "Population: Labor force participation (%)" TEXT,
     "Tax revenue (%)" TEXT,
     "Total tax rate" TEXT,
@@ -30,7 +30,7 @@ CREATE TABLE country_data (
     "Urban_population" TEXT,
     "Latitude" FLOAT,
     "Longitude" FLOAT,
-    "Urban Percentage" TEXT,
+    "Urban Percentage" FLOAT,
     "Life expectancy group" int
 );
 
