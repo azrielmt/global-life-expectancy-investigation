@@ -1,4 +1,4 @@
-# Flobal Life Expectancy Investigation
+# Global Life Expectancy Investigation
 
 ## Project Description/Outline:
 
