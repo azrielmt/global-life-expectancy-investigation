@@ -1,5 +1,5 @@
 # Global Life Expectancy Investigation
-
+![scatter1](Visualizations/LEScatter0.png)
 ## Project Description/Outline:
 Using information from the Global Country Information Dataset 2023, we performed an investigation on average life expectancy.  In addition to getting an overall picture of life expectancy around the world, both linear regression and logistic regression models were created.  The linear regression models revealed the strength of each individual variable's relationship with life expectancy (more details on this follow in the analysis sections).  The logistic regression models were created, trained, tested and compared to see which (if any) of the following categories of variables proved to be a better predictor of a country's average life expectancy:
 
