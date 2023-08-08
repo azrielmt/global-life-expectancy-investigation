@@ -7,6 +7,13 @@
 ![scatter8](Visualizations/LEvsForest.png)
 ![scatter1](Visualizations/TaxRevvslnf.png)
 
+![worldmap1](Tableau_Images_Project_4/Infant_Mortality.png)
+![worldmap2](Tableau_Images_Project_4/Life_Expectancy.png)
+![worldmap3](Tableau_Images_Project_4/Min_Wage.png)
+
+
+
+
 
 
 
