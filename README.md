@@ -90,6 +90,8 @@ The initial map created shows which countries have an averages life expecancy ab
 
 In looking at the classification reports that were created for each logistic regression model that was tested, the most accurate model was the model predicting whether or not a country's average life expectancy would be above average (Labeled as 1) or at/below average (Labeled as 0).  This result was expected after having seen both the scatter plots and the maps produced from those variables.  The classification report for the health model is shown below:
 
+![report](Tableau_Images_Project_4/classification_report_health.png)
+
 This model performs well on both classes (above vs. below average life expectancies) in the training data with high precision, recall, and F1-scores. The overall accuracy of 0.95 indicates that the model is effective in predicting the correct class labels.  The model's performance on the testing data is slightly lower than on the training data. While the precision, recall, and F1-scores are generally good, there is a noticeable difference in recall for class 0. This indicates that the model might struggle with correctly identifying instances of below average life expectancies, specifically in the testing data.  Therefore, while the logistic regression model seems to perform reasonably well, it still might be worth continuing to investigate ways to improve its performance for countries with lower average life expectancies.
 
 ## Team: 
