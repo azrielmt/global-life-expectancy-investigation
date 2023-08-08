@@ -89,6 +89,24 @@ Two types of visualizations were created.
 
 ## General Analysis:
 
+### Analysis of Scatter Plots:
+
+For each category, the strongest correlations were as follows:
+- Health: Infant Mortality (r = -0.93) & Birth Rate (r = -0.88)
+- Financial: Minimum Wage(r = 0.63) & Tax Revenue (%) (r = 0.40)
+- Conditions: Gross Tertiary Education Enrollment (%) (r = 0.77) & Urban Percentage (r = 0.62)
+
+For each category, the weakest correlations were as follows:
+- Health: Physicians per thousand (r = 0.70)
+- Financial: Unemployment Rate (r = 0.04)
+- Conditions: Forested Area (%) (r = 0.03)
+
+  As demonstrated by the correlation coefficients, infant mortality and birth rate had the strongest association with a country's average life expectancy, both of which had rather strong, negative relationships.  As they increased, average life expectancy tended to decrease.  The only other relationship that was moderately strong (outside of the health category) was gross tertiary education enrollment (%) (from the conditions category).  It is worth noting that every variable in the health category had a strong/moderately strong correlation with life expectancy; this is evident from the fact that the weakest correlation from the health category (physicias per thousand) had a correlation coefficient of 0.70 which was higher than everything outside of the health category with the exception of gross tertiary education enrollment meaning every other measure in the health category had an even stronger relationship (regardless of whether that correlation was positive or negative).  Additionally, there were some variables in the financial and conditions categories that had essentially no linear relationhip with average life expectancy (evidenced by correlation coefficients that were approximately zero.  The strength of the relationship between the health variables and life expectancy carries through in other aspects of this analysis as well.
+
+### Analysis of Maps: 
+
+### Analysis of Logistic Regression Models: 
+
 ## Team: 
 - Muntasir Billah, Natalie Lollin, Riddhi Sodagar, Azriel Tamayo
 
