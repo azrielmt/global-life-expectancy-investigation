@@ -73,7 +73,22 @@ Analyses of these models can be found in the "General Analysis" section of this 
 - The database used from Kaggle, https://www.kaggle.com/datasets/nelgiriyewithana/countries-of-the-world-2023, "Global Country Information Dataset 2023"
 ### This comprehensive dataset provides a wealth of information about all countries worldwide, covering a wide range of indicators and attributes. It encompasses demographic statistics, economic indicators, environmental factors, healthcare metrics, education statistics, and much more. With every country represented, this dataset offers a complete global perspective on various aspects of nations, enabling in-depth analyses and cross-country comparisons.
 
-## Visualizations & Analysis:
+## Visualizations: 
+
+Two types of visualizations were created.
+Four types of visualizations were created.
+1. Scatter plots created in Python (sample included below)
+
+Within each category the strongest two correlations were identified along with the weakest correlation.  Scatter plots were generated for those three variables in each category, creating a total of 9 scatter plots.  
+
+2. Filled Maps created in Tableau (sample included below)
+
+- Map displaying if a country's average life expectancy was above or below the global average
+- For each category (health, financial, conditions) a map was created that displayed the variable that had the strongest correlation to life expectancy on a color spectrum.  The variables from each category were as follows:
+
+    - Health: Infant Mortality
+    - Financial: Minimum Wage
+    - Gross Tertiary Education Enrollment
 
 ## General Analysis:
 
