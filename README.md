@@ -1,3 +1,24 @@
+![scatter2](Visualizations/LEScatter1.png)
+![scatter3](Visualizations/LEScatter_0.png)
+![scatter4](Visualizations/LEScatter_1.png)
+![scatter5](Visualizations/LEScatter__0.png)
+![scatter6](Visualizations/LEScatter__1.png)
+![scatter7](Visualizations/LEvsBirth.png)
+![scatter8](Visualizations/LEvsForest.png)
+![scatter1](Visualizations/TaxRevvslnf.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Global Life Expectancy Investigation
 ![scatter1](Visualizations/LEScatter0.png)
 ## Project Description/Outline:
