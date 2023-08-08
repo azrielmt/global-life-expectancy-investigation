@@ -1,35 +1,5 @@
-![scatter2](Visualizations/LEScatter1.png)
-![scatter3](Visualizations/LEScatter_0.png)
-![scatter4](Visualizations/LEScatter_1.png)
-![scatter5](Visualizations/LEScatter__0.png)
-![scatter6](Visualizations/LEScatter__1.png)
-![scatter7](Visualizations/LEvsBirth.png)
-![scatter8](Visualizations/LEvsForest.png)
-![scatter1](Visualizations/TaxRevvslnf.png)
-
-
-![worldmap1](Tableau_Images_Project_4/Gross_Tertiary_Education.png)
-![worldmap2](Tableau_Images_Project_4/Infant_Mortality.png)
-![worldmap3](Tableau_Images_Project_4/Life_Expectancy.png)
-![worldmap4](Tableau_Images_Project_4/Min_Wage.png)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 # Global Life Expectancy Investigation
-![scatter1](Visualizations/LEScatter0.png)
+
 ## Project Description/Outline:
 Using information from the Global Country Information Dataset 2023, we performed an investigation on average life expectancy.  In addition to getting an overall picture of life expectancy around the world, both linear regression and logistic regression models were created.  The linear regression models revealed the strength of each individual variable's relationship with life expectancy (more details on this follow in the analysis sections).  The logistic regression models were created, trained, tested and compared to see which (if any) of the following categories of variables proved to be a better predictor of a country's average life expectancy:
 
@@ -77,7 +47,8 @@ Analyses of these models can be found in the "General Analysis" section of this 
 
 Two types of visualizations were created.
 - Scatter plots created in Python (sample included below)
-    - Within each category the strongest two correlations were identified along with the weakest correlation.  Scatter plots were generated for those three variables in each category, creating a total of 9 scatter plots.  
+    - Within each category the strongest two correlations were identified along with the weakest correlation.  Scatter plots were generated for those three variables in each category, creating a total of 9 scatter plots.
+    - ![scatter3](Visualizations/LEScatter_0.png)
 
 - Filled Maps created in Tableau (sample included below)
     - Map displaying if a country's average life expectancy was above or below the global average
@@ -86,6 +57,7 @@ Two types of visualizations were created.
         - Health: Infant Mortality
         - Financial: Minimum Wage
         - Gross Tertiary Education Enrollment
+    ![worldmap1](Tableau_Images_Project_4/Gross_Tertiary_Education.png)
 
 ## General Analysis:
 
@@ -95,17 +67,24 @@ For each category, the strongest correlations were as follows:
 - Health: Infant Mortality (r = -0.93) & Birth Rate (r = -0.88)
 - Financial: Minimum Wage(r = 0.63) & Tax Revenue (%) (r = 0.40)
 - Conditions: Gross Tertiary Education Enrollment (%) (r = 0.77) & Urban Percentage (r = 0.62)
+  
 
 For each category, the weakest correlations were as follows:
 - Health: Physicians per thousand (r = 0.70)
 - Financial: Unemployment Rate (r = 0.04)
 - Conditions: Forested Area (%) (r = 0.03)
 
+![scatter2](Visualizations/LEScatter1.png)
+![scatter1](Visualizations/LEScatter0.png)
+
   As demonstrated by the correlation coefficients, infant mortality and birth rate had the strongest association with a country's average life expectancy, both of which had rather strong, negative relationships.  As they increased, average life expectancy tended to decrease.  The only other relationship that was moderately strong (outside of the health category) was gross tertiary education enrollment (%) (from the conditions category).  It is worth noting that every variable in the health category had a strong/moderately strong correlation with life expectancy; this is evident from the fact that the weakest correlation from the health category (physicias per thousand) had a correlation coefficient of 0.70 which was higher than everything outside of the health category with the exception of gross tertiary education enrollment meaning every other measure in the health category had an even stronger relationship (regardless of whether that correlation was positive or negative).  Additionally, there were some variables in the financial and conditions categories that had essentially no linear relationhip with average life expectancy (evidenced by correlation coefficients that were approximately zero.  The strength of the relationship between the health variables and life expectancy carries through in other aspects of this analysis as well.
 
 ### Analysis of Maps: 
 
 The initial map created shows which countries have an averages life expecancy above the global average (shown in blue) vs. at/below the global average (shown in orange).  With some exceptions, the largest cluster of countries that had a below average life expectancy were concentrated in central/southern Africa.  In looking at the other maps that were created, we looked at the similarities in the colorations between those maps and this original life expectancy map.  Each map can be found in the Tableau_Images_Project_4 folder, but the similarities between patterns in the Life Expectancy Map and the Infant Mortality Map were most noticeable.  This further supported the observations derived from the scatter plots suggesting the variables from the health category had the strongest relationship with average life expectancy.
+![worldmap3](Tableau_Images_Project_4/Life_Expectancy.png)
+![worldmap2](Tableau_Images_Project_4/Infant_Mortality.png)
+
 
 ### Analysis of Logistic Regression Models: 
 
