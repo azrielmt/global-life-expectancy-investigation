@@ -76,19 +76,16 @@ Analyses of these models can be found in the "General Analysis" section of this 
 ## Visualizations: 
 
 Two types of visualizations were created.
-Four types of visualizations were created.
-1. Scatter plots created in Python (sample included below)
+- Scatter plots created in Python (sample included below)
+    - Within each category the strongest two correlations were identified along with the weakest correlation.  Scatter plots were generated for those three variables in each category, creating a total of 9 scatter plots.  
 
-Within each category the strongest two correlations were identified along with the weakest correlation.  Scatter plots were generated for those three variables in each category, creating a total of 9 scatter plots.  
+- Filled Maps created in Tableau (sample included below)
+    - Map displaying if a country's average life expectancy was above or below the global average
+    - For each category (health, financial, conditions) a map was created that displayed the variable that had the strongest correlation to life expectancy on a color spectrum.  The variables from each category were as follows:
 
-2. Filled Maps created in Tableau (sample included below)
-
-- Map displaying if a country's average life expectancy was above or below the global average
-- For each category (health, financial, conditions) a map was created that displayed the variable that had the strongest correlation to life expectancy on a color spectrum.  The variables from each category were as follows:
-
-    - Health: Infant Mortality
-    - Financial: Minimum Wage
-    - Gross Tertiary Education Enrollment
+        - Health: Infant Mortality
+        - Financial: Minimum Wage
+        - Gross Tertiary Education Enrollment
 
 ## General Analysis:
 
