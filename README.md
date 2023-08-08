@@ -1,7 +1,38 @@
 # Global Life Expectancy Investigation
 
 ## Project Description/Outline:
+Using information from the Global Country Information Dataset 2023, we performed an investigation on average life expectancy.  In addition to getting an overall picture of life expectancy around the world, both linear regression and logistic regression models were created.  The linear regression models revealed the strength of each individual variable's relationship with life expectancy (more details on this follow in the analysis sections).  The logistic regression models were created, trained, tested and compared to see which (if any) of the following categories of variables proved to be a better predictor of a country's average life expectancy:
 
+- Health(Medical) Factors:
+    - Birth Rate 
+    - Fertility Rate
+    - Infant Mortality
+    - Maternal Mortality Ratio 
+    - Physicians per Thousand
+- Financial(Economic) Factors:
+    - CPI 
+    - CPI Change(%) 
+    - Gasoline Price
+    - GDP
+    - Minimum Wage
+    - Population: Labor force participation (%) 
+    - Total Tax Rate
+    - Unemployment rate
+- Living Conditions(Other) Factors:
+    - Density (P/Km2)
+    - Agricultural Land (%)
+    - Armed Forces Size
+    - CO2 Emissions
+    - Forested Area (%)
+    - Gross Primary Education Enrollment (%)
+    - Gross Tertiary Education Enrollment (%)
+    - Latitude 
+    - Longitude
+    - Urban Percentage
+
+
+
+Analyses of these models can be found in the "General Analysis" section of this file.
 ## Repository Contents:
 - Resources Folder: Includes the SQL Query and both original and cleaned csv files used.
 - Tableau Images Project 4 Folder: Includes the four visualizations created by using Tableau.
