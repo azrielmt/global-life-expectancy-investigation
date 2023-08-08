@@ -105,6 +105,8 @@ For each category, the weakest correlations were as follows:
 
 ### Analysis of Maps: 
 
+The initial map created shows which countries have an averages life expecancy above the global average (shown in blue) vs. at/below the global average (shown in orange).  With some exceptions, the largest cluster of countries that had a below average life expectancy were concentrated in central/southern Africa.  In looking at the other maps that were created, we looked at the similarities in the colorations between those maps and this original life expectancy map.  Each map can be found in the Tableau_Images_Project_4 folder, but the similarities between patterns in the Life Expectancy Map and the Infant Mortality Map were most noticeable.  This further supported the observations derived from the scatter plots suggesting the variables from the health category had the strongest relationship with average life expectancy.
+
 ### Analysis of Logistic Regression Models: 
 
 ## Team: 
